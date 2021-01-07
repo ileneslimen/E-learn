@@ -1,0 +1,67 @@
+.App{background-color: #000000de;}
+
+h1{font-size: 64px;
+  color:white}
+  h2{font-size: 40px; 
+  color :white;}
+  h5{font-size: 24px;
+    width: 474px;
+    color: #ffffff66;
+    line-height: 50px;
+    margin-right: 135px;}
+  p{margin-right: 135px;
+    font-size: 30px;
+    width: 474px;
+    color: #ffffff66;}
+
+
+.first {display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+  padding: 57px;
+  justify-items: center;
+  line-height: 50px;}
+.second {display: flex;
+  justify-content: space-around;
+  border-top: solid #ffffff1c;
+  padding-top: 76px;}
+.Prof-Container{display: flex;
+  flex-wrap: wrap;
+  width: 674px; 
+  justify-content: space-around;}
+
+img {height: 200px;
+  width: 100%;}
+.img-fluid {width:130px;
+ height: 130px;}
+.uniimg{width: 170px;
+ height: 134px;}
+.sign{color:black;
+font-size: 20px;}
+.alert{
+  padding:0.8rem;
+  margin:1rem 0;
+  opacity:0.9;
+  background:var(--light-color);
+  color:black
+}
+.alert-primary{
+  background:var(--primary-color);
+  color: #fff
+}
+.alert-light{
+  background:var(--light-color);
+  color:#333
+}
+.alert-dark{
+  background:var(--dark-color);
+  color:black
+}
+.alert-danger {
+  background-color:var(--danger-color);
+  color:red
+}
+.alert-success {
+  background-color:var(--success-color);
+  color:green
+}
